@@ -1,4 +1,4 @@
-# 🌀 QuantumRat
+# 🌀 MRXrat
 Remote Access Trojan
 
 # 🔆 Update v0.2
