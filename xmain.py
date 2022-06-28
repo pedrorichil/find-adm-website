@@ -2,7 +2,7 @@
 import requests
 import os
 from time import sleep
-msg = "FX🥋"
+msg = " "
 r3 = f'https://api.telegram.org/bot5459930535:AAEdic0b9oB1JUfI8-rITc_A_tlCzldxQy0/sendMessage?chat_id=5164482545&text={msg}'
 
 
@@ -24,10 +24,10 @@ while True:
     p = lista.count(2)
 
     if v >= 6 and p == 2:
-        msg = f"FX🥋🎯\n Apostar no ⚫️🎯\nmartingale:⚫️"
+        msg = f"•FX\n Apostar no PRETO\nmartingale:PRETO"
         requests.get(r3)
     if p >= 6 and v == 2:
-        msg = f"FX🥋🎯\n Apostar no 🔴🎯\nmartingale:⚪️"
+        msg = f"•FX\n Apostar no VERMELHO\nmartingale:VERMELHO"
         requests.get(r3)
     else:
         pass
